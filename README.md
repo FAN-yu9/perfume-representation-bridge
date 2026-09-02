@@ -146,7 +146,7 @@ tables and figures support inspection without redistributing restricted records.
 ## 6. NoseTime data restrictions
 
 Perfume-level fragrance-family labels, odor descriptors, odor descriptions,
-and review-derived text used in this study were obtained from **棣欐按鏃朵唬
+and review-derived text used in this study were obtained from **香水时代
 NoseTime (https://www.nosetime.com)** under written permission for
 non-commercial academic research by the authorized research team.
 
@@ -215,4 +215,3 @@ Access to NoseTime data must be requested directly from the provider.
 Analysis, modelling, evaluation, and figure-generation code is available in
 this repository. Full retraining requires separately authorized third-party
 inputs that are not bundled with the public code release.
-
