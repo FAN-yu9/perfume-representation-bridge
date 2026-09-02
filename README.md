@@ -1,6 +1,6 @@
 # Perfume Representation Bridge
 
-Code, aggregate results, and manuscript package for **From fragrance families
+Code and aggregate results supporting **From fragrance families
 to continuous odor representations: multimodal learning and bounded
 composition reconstruction for real-world perfume mixtures**.
 
@@ -26,7 +26,6 @@ perfume-representation-bridge/
 |-- CITATION.cff
 |-- environment.yml
 |-- requirements.txt
-|-- SUBMISSION_MANIFEST.md
 |-- .zenodo.json
 |-- docs/
 |-- configs/
@@ -43,13 +42,6 @@ perfume-representation-bridge/
 |-- data/
 |-- results/
 |-- supplementary_data/
-|-- manuscript/
-|   |-- main.tex
-|   |-- supplementary_information.tex
-|   |-- references.bib
-|   |-- rsc.bst
-|   |-- head_foot/
-|   `-- README_BUILD.md
 `-- reproduce.sh
 ```
 
@@ -63,10 +55,9 @@ molecularly enhanced feature directories are excluded from Git and supplied in
 the companion Zenodo dataset record. Small GC-MS inputs needed to inspect the
 core preprocessing remain under `data/`.
 
-The RSC-formatted Digital Discovery manuscript and Supplementary Information
-are maintained under `manuscript/`. See `manuscript/README_BUILD.md` for the
-four-pass LaTeX/BibTeX build and `SUBMISSION_MANIFEST.md` for the separation
-between public GitHub files and the confidential reviewer package.
+Manuscript and journal-template source files are maintained separately from
+this software repository. The article title and preferred citation remain in
+`CITATION.cff`.
 
 The large `zenodo_archive/` working directory is intentionally excluded from
 Git. Only its upload-ready dataset ZIP and checksum are deposited separately on
